@@ -1,4 +1,4 @@
-// ===================Товары=====================
+
 let products = [
     {
         id: 'qwerty1',
@@ -143,16 +143,16 @@ function addToBasket(id){
     
 
     
-    console.log(basket)
+    
     activeBasket();
     saveToLocalStorage();
     
-    console.log(getAllPrice())
+    
 }
 
 function delBasket(id){
     const index = basket.findIndex(el => el.id === id);
-    console.log(index)
+   
 
     if(index !== -1){
         basket.splice(index, 1 );
