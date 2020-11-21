@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vladimir-Gorevoi</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__top">
+      <div class="container">
+        <div class="header__top__inner">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#" class="menu__link">Магазин</a></li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Акции</a></li>
+              <li class="menu__item">
+                <a href="#" class="menu__link">Доставка и оплата</a></li>
+            </ul>
+          </nav>
+          <a class="logo" href="#">
+            <img class="logo__img" src="images/logo2.png" alt="">
+          </a>
+          <div class="header__info">
+            <p class="header__adress">
+              <img src="images/user-item-address.svg" alt="">
+              г.Минск , ул. Чебурашка 44
+            </p>
+            <ul class="user-list">
+              <li class="user-item">
+                <a class="user__list__link" href="#">
+                  <img src="images/user-item-user.svg" alt="">
+                </a>
+              </li>
+              <li class="user-item">
+                <a class="user__list__link" href="#">
+                  <img src="images/user-item-like.svg" alt="">
+                </a>
+              </li>
+              <li class="user-item">
+                <a class="user__list__link  basket-icon" href="#" data-toggle="modal" data-target="#exampleModal">
+                  <img src="images/user-item-bask.svg" alt="">
+                  <p class="basketCount"></p>
+
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border__header">
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="container__product">
+
+      <!-- render products -->
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__container">
+        <div class="footer__adress">
+          <img src="images/user-item-address.svg" alt="">
+          <p>Адресс: г.Минск ул.Чебурашка д.44</p>
+          <img src="images/phone-call.svg" alt="">
+          <p>Тел: +375 (29) 365-53-48 </p>
+        </div>
+        <div class="footer__navigation">
+          <ul class="icon__list">
+            <li class="icon__item">
+              <a href="#" class="icon__item-img">
+                <img src="images/skype.svg" alt="">
+              </a>
+            </li>
+            <li class="icon__item">
+              <a href="#" class="icon__item-img">
+                <img src="images/viber.svg" alt="">
+              </a>
+            </li>
+            <li class="icon__item">
+              <a href="#" class="icon__item-img">
+                <img src="images/telegram.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Корзина</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <ul class="list-group basket-container">
+
+          </ul>
+          <span class="total-price"></span>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">закрыть</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
