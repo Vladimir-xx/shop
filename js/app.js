@@ -2,42 +2,42 @@
 let products = [
     {
         id: 'qwerty1',
-        productName: 'asus',
+        productName: 'Asus',
         price: 1000,
-        img: 'images/asus-5.jpg',
+        img: 'images/asus-3.jpg',
         counter: 1
     },
     {   
         id: 'qwerty2',
-        productName: 'dell',
+        productName: 'Asus',
             price: 7000,
             img: 'images/nout-asus.jpg',
             counter: 1
     },
     {   
         id: 'qwerty3',
-        productName: 'acer',
+        productName: 'Asus',
             price: 3000,
-            img: 'images/asus-5.jpg',
+            img: 'images/asus-3.jpg',
             counter: 1
     },
     {   
         id: 'qwerty4',
-        productName: 'apple',
+        productName: 'Asus',
             price: 13000,
-            img: 'images/asus-5.jpg',
+            img: 'images/asus-4.jpg',
             counter: 1
     },
     {   
         id: 'qwerty5',
-        productName: 'apple pro',
+        productName: 'Asus',
             price: 18000,
             img: 'images/asus-5.jpg',
             counter: 1
     },
     {   
         id: 'qwerty6',
-        productName: 'MSI pro',
+        productName: 'Asus',
             price: 11000,
             img: 'images/asus-5.jpg',
             counter: 1
